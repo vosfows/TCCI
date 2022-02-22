@@ -226,8 +226,6 @@
 }
 .wrapper{
   position: relative;
-  background: #E4E9F7;
-  min-height: 100vh;
   top: 0;
   left: 78px;
   width: calc(100% - 78px);
@@ -238,7 +236,7 @@
   left: 250px;
   width: calc(100% - 250px);
 }
-.wrappern .text{
+.wrapper .text{
   display: inline-block;
   color: #11101d;
   font-size: 25px;
@@ -285,5 +283,10 @@ i.bx:hover{
     transform: rotate(90deg);
     cursor: pointer;
     box-shadow: none;
+}
+
+#content{
+  padding-left: 60px;
+  padding-right: 60px;
 }
 

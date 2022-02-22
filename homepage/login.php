@@ -23,14 +23,17 @@ if (isset($_SESSION["id"])) {
 </head>
 
 <body>
-    <p>Login</p>
     <center>
-        <form action="" method="POST">
-            <input type="text" id="user" name="username" placeholder="username">
-            <br>
-            <input type="text" id="pass" name="password" placeholder="password">
-            <button type="submit" id="btn" name="login" default>Login</button>
-        </form>
+        <div style="top:10rem;">
+            <p>Login</p>
+            <form action="" method="POST">
+                <input type="text" id="user" name="username" placeholder="username">
+                <br>
+                <input type="text" id="pass" name="password" placeholder="password">
+                <br>
+                <button type="submit" id="btn" name="login" default>Login</button>
+            </form>
+        </div>
     </center>
 </body>
 
